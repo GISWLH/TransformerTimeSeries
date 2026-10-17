@@ -22,7 +22,7 @@ We offer a video that provides a concise overview of our paper for individuals s
 
 :star2: **Channel-independence**: each channel contains a single univariate time series that shares the same embedding and Transformer weights across all the series.
 
-![alt text](https://github.com/yuqinie98/PatchTST/blob/main/pic/model.png)
+![alt text](https://raw.githubusercontent.com/yuqinie98/PatchTST/main/pic/model.png)
 
 ## Results
 
@@ -31,25 +31,25 @@ We offer a video that provides a concise overview of our paper for individuals s
 Compared with the best results that Transformer-based models can offer, PatchTST/64 achieves an overall **21.0%** reduction on MSE and **16.7%** reduction
 on MAE, while PatchTST/42 attains a overall **20.2%** reduction on MSE and **16.4%** reduction on MAE. It also outperforms other non-Transformer-based models like DLinear.
 
-![alt text](https://github.com/yuqinie98/PatchTST/blob/main/pic/table3.png)
+![alt text](https://raw.githubusercontent.com/yuqinie98/PatchTST/main/pic/table3.png)
 
 ### Self-supervised Learning
 
 We do comparison with other supervised and self-supervised models, and self-supervised PatchTST is able to outperform all the baselines. 
 
-![alt text](https://github.com/yuqinie98/PatchTST/blob/main/pic/table4.png)
+![alt text](https://raw.githubusercontent.com/yuqinie98/PatchTST/main/pic/table4.png)
 
-![alt text](https://github.com/yuqinie98/PatchTST/blob/main/pic/table6.png)
+![alt text](https://raw.githubusercontent.com/yuqinie98/PatchTST/main/pic/table6.png)
 
 We also test the capability of transfering the pre-trained model to downstream tasks.
 
-![alt text](https://github.com/yuqinie98/PatchTST/blob/main/pic/table5.png)
+![alt text](https://raw.githubusercontent.com/yuqinie98/PatchTST/main/pic/table5.png)
 
 ## Efficiency on Long Look-back Windows
 
 Our PatchTST consistently <ins>reduces the MSE scores as the look-back window increases</ins>, which confirms our model’s capability to learn from longer receptive field.
 
-![alt text](https://github.com/yuqinie98/PatchTST/blob/main/pic/varying_L.png)
+![alt text](https://raw.githubusercontent.com/yuqinie98/PatchTST/main/pic/varying_L.png)
 
 ## Getting Started
 
