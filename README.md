@@ -1,3 +1,7 @@
+<!-- readme-visual-refresh:banner -->
+![TransformerTimeSeries — hand-drawn project banner](assets/readme/banner.svg)
+<!-- /readme-visual-refresh:banner -->
+
 # PatchTST (ICLR 2023)
 
 ### This is an offical implementation of PatchTST: [A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/abs/2211.14730). 
@@ -117,3 +121,6 @@ If you find this repo useful in your research, please consider citing our paper 
 }
 ```
 
+<!-- readme-visual-refresh:artwork-source -->
+[Editable banner artwork · Excalidraw](assets/readme/banner.excalidraw)
+<!-- /readme-visual-refresh:artwork-source -->
